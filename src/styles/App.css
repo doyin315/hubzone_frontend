@@ -1,0 +1,123 @@
+.grid{
+  display: grid;
+  grid-template-columns: 4fr 1fr 4fr;
+  grid-template-columns: "left . right";
+  width: 100vw;
+  height: 100vh;
+}
+
+.right{
+  text-align: center;
+  float:right
+}
+
+.header{
+  text-align: center;
+  background-color: orange;
+  padding: 10px;
+  margin: 0px;
+  font-size: 20px;
+  font-family: roboto; 
+  position: relative; 
+}
+h2{
+font-family: roboto;
+}
+h4{
+  position: relative;
+}
+p{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.inputext {
+  width: 65%;
+  margin: 20px auto;
+  border-style: hidden;
+  border-bottom-style: solid;
+  border-bottom-color: #556797;
+  outline: none;
+}
+.bodbut {
+  color: #ffffff;
+  margin: 10px;
+  font-size: 12px;
+  border: 0 none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #0C12B2;
+  font-family: roboto, medium;
+  border-radius: 0;
+  width: 100px;
+  height: 36px;
+  cursor: pointer;
+}
+.bodbut:hover{
+  background-color: #0080ff;
+}
+.delbut{
+  color: #ffffff;
+  margin: 10px;
+  font-size: 12px;
+  border: 0 none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color:	red;
+  font-family: roboto, medium;
+  border-radius: 0;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.delbut:hover{
+   background-color:#FF4500;
+}
+.logbut{
+  float: right;
+  color: #ffffff;
+  margin: 10px;
+  font-size: 12px;
+  border: 0 none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color:	red;
+  font-family: roboto, medium;
+  border-radius: 0;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+.logbut:hover{
+   background-color:#FF4500;
+}
+.addtext{
+  width: 30%;
+  margin: 20px auto;
+  border-style: hidden;
+  border-bottom-style: solid;
+  border-bottom-color: #556797;
+  outline: none;
+  margin: 30px 0px 30px 0px;
+}
+.content{
+  text-align: center;
+}
+.nav:link, .nav:visited {
+  float: right;
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.nav:hover, .nav:active {
+    background-color: red;
+}
+.hobbies{
+  margin-left:70px
+}
