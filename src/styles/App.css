@@ -10,7 +10,20 @@
   text-align: center;
   float:right
 }
-
+.grid{
+  background-image: url('lake.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.login:hover{
+transform : scale(1.2);
+transition: 0.5s;
+}
+.signup:hover{
+  transform : scale(1.1);
+transition: 0.5s;
+}
 .header{
   text-align: center;
   background-color: orange;
@@ -46,7 +59,7 @@ p{
   border: 0 none;
   letter-spacing: 1px;
   text-transform: uppercase;
-  background-color: #0C12B2;
+  background-color:green;
   font-family: roboto, medium;
   border-radius: 0;
   width: 100px;

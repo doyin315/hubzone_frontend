@@ -105,7 +105,7 @@ export default class Body extends Component {
                     </div>
                     <div></div>
                     <div>
-                        <div>
+                        <div className='signup'>
                             <h2>Sign Up</h2>
                             <form onSubmit={this.onSignSubmit}>
                                 <input name="email"
